@@ -15,7 +15,7 @@
     "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"src/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md|vue)\"",
     "prepare": "husky install",
     "lint:stage": "lint-staged",
-    "commit": "cz-git",
+    "commit": "git-cz",
     "commitlint": "commitlint --edit"
   },
   "lint-staged": {
@@ -66,6 +66,7 @@
     "husky": "8.0.3",
     "lint-staged": "13.2.3",
     "cz-git": "1.7.0",
-    "zx": "2.0.0"
+    "zx": "2.0.0",
+    "tsno": "2.0.0"
   }
 }
